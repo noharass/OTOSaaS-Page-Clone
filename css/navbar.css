@@ -45,4 +45,15 @@
   .navbar-toggler .expand-icon:hover {
     opacity: .6;
   }
+
+  /* 修改下拉列表背景 */
+  #navbarNav {
+    position: absolute;
+    top: calc(100% + 16px);
+    width: 100%;
+    background-color: var(--bg-nav-color);
+    color: #fff;
+    margin: 0 -16px;
+    z-index: 100;
+  }
 }
